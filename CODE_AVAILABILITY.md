@@ -1,19 +1,11 @@
-Psoriasis code release checklist
+# Code availability
 
-Status: repository and DOI not yet assigned.
+The versioned analysis repository is:
 
-Recommended public release contents:
-- scripts/                         analysis and figure-generation scripts
-- selected derived tables from results/  patient-level summaries and statistical outputs used in the manuscript
-- figure_manifest.tsv              figure-to-file mapping
-- analysis_environment_R4.6.0.txt  R session information
-- README with accession list, execution order, and software requirements
+https://github.com/guohang-shen/psoriasis-spatial-treatment-analysis
 
-Do not redistribute the raw GEO matrices in the public code repository. Cite the GEO accessions in the manuscript instead.
+It contains the core analysis and figure-generation scripts, selected derived tables, the figure manifest, and R session information. The repository is public and contains no raw GEO matrices.
 
-Manuscript placeholder to replace before submission:
-Public repository URL and DOI: [TO BE ASSIGNED BEFORE SUBMISSION].
+Raw expression data remain available from GEO accessions GSE206391, GSE314158, GSE117239, GSE85034, GSE136757, GSE183047, GSE278330, GSE228421, and GSE11903.
 
-Recommended final wording after release:
-"Analysis code and derived tables are available at [PUBLIC_REPOSITORY_URL] and archived at [DOI]. Raw data are available from GEO accessions GSE206391, GSE314158, GSE117239, GSE85034, GSE136757, GSE183047, GSE278330, GSE228421, and GSE11903."
-
+A DOI-minted archive should be created from the release commit before publication. Until that archive is created, the repository URL is the stable access point for peer review.
