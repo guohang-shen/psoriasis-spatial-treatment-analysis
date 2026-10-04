@@ -1,0 +1,25 @@
+Analysis	Compartment_or_timepoint	Module_or_endpoint	N_or_studies_or_arms	Effect_summary	Raw_P_or_meta_P	Adjusted_q_or_FDR	Interpretation
+Visium disease selectivity	Type-1/17 versus atopic dermatitis	Corrected composite axis	Type-1/17 n=8; AD n=4	Higher in type-1/17 skin	0.0081	Not applicable to this single prespecified contrast	Disease-selective spatial axis
+Visium disease selectivity	Type-1/17 versus atopic dermatitis	Type-I interferon	12 patients	Directionally higher in type-1/17 skin	0.00404	0.020	Replicated module-level disease signal
+Visium disease selectivity	Type-1/17 versus atopic dermatitis	Interferon-gamma	12 patients	Directionally higher in type-1/17 skin	0.00202	0.020	Replicated module-level disease signal
+Visium disease selectivity	Type-1/17 versus atopic dermatitis	Corrected composite axis	12 patients	Directionally higher in type-1/17 skin	0.00808	0.027	Disease-selective composite result
+Cross-platform spatial meta	Visium plus CosMx	Type-I interferon	2 platforms; n=12 and 7	Concordant direction	9.7e-4	9.7e-4	Strong cross-platform replication
+Cross-platform spatial meta	Visium plus CosMx	Interferon-gamma	2 platforms; n=12 and 7	Concordant direction	9.7e-4	9.7e-4	Strong cross-platform replication
+Cross-platform spatial meta	Visium plus CosMx	Keratinocyte stress	2 platforms; n=12 and 7	Concordant direction	0.00247	0.0066	Cross-platform replication
+Cross-platform spatial meta	Visium plus CosMx	Myeloid inflammation	2 platforms; n=12 and 7	Opposite platform directions	0.0296	0.059	Partial support only
+Treatment convergence	Keratinocyte pseudobulk	Keratinocyte stress	3 treatment arms; 18 patients	Coordinated decrease	0.00218	0.0034	Convergent pharmacodynamic response
+Treatment convergence	Keratinocyte pseudobulk	Interferon-gamma	3 treatment arms; 18 patients	Coordinated decrease	0.000290	0.0013	Convergent pharmacodynamic response
+Treatment convergence	Keratinocyte pseudobulk	Type-I interferon	3 treatment arms; 18 patients	Coordinated decrease	0.000260	0.0013	Compartment-restricted convergence
+Treatment convergence	Keratinocyte pseudobulk	Myeloid inflammation	3 treatment arms; 18 patients	Coordinated decrease	0.00236	0.0034	Convergent pharmacodynamic response
+Treatment convergence	Keratinocyte pseudobulk	Th2 control	3 treatment arms; 18 patients	Not consistently decreased	0.0909	0.10	Negative-control result
+Treatment convergence	Bulk tissue	Keratinocyte stress	2 treatment arms; 60 patients	Coordinated decrease	0.000596	0.0015	Convergent bulk response
+Treatment convergence	Bulk tissue	Interferon-gamma	2 treatment arms; 60 patients	Coordinated decrease	0.000385	0.0013	Convergent bulk response
+Treatment convergence	Bulk tissue	Type-I interferon	2 treatment arms; 60 patients	Only 1/2 arms concordant	0.4776	0.48	Bulk claim not supported
+Treatment convergence	Bulk tissue	Myeloid inflammation	2 treatment arms; 60 patients	Coordinated decrease	0.00162	0.0032	Convergent bulk response
+Treatment convergence	Bulk tissue	Th2 control	2 treatment arms; 60 patients	Negative-control shift in bulk tissue	0.0304	0.038	Interpret with compartment limitation
+Placebo-controlled	Day 14	Interferon response	Active n=16; placebo n=9	Median drop 2.09 versus -0.06	5.17e-5	7.2e-4	Active treatment greater than placebo
+Placebo-controlled	Day 28	Interferon response	Active n=12; placebo n=8	Median drop 2.37 versus 0.10	0.00098	0.0064	Active treatment greater than placebo
+Placebo-controlled	Day 14	Keratinocyte differentiation control	Active n=16; placebo n=9	Between-group difference 0.036	0.0388	0.049	Nominal and biologically small
+Residual kinetics	Risankizumab week 28	Keratinocyte stress	n=8	Baseline offset +2.20; residual +0.54	0.014 baseline; 0.107 residual	Not significant for residual	Exploratory residual direction
+Residual replication	Etanercept week 12	Residual ordering	n=15; paired tests n=14	KC stress 20%, IFN-I 15%, IFN-gamma 14%, myeloid 5%	0.38–0.89	Not significant	No stable cross-treatment ordering
+
