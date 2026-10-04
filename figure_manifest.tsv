@@ -1,0 +1,16 @@
+Submission_order	Figure_ID	File	Status	Use
+1	Figure 1	02_主图/Figure_1_Study_design_and_evidence_chain.png	Main figure	Study design and evidence chain
+2	Figure 2	02_主图/Figure_2_Visium_spatial_layer.png	Main figure	Visium depth correction and disease selectivity
+3	Figure 3A	02_主图/Figure_3A_Spatial_maps.png	Main figure panel	Representative spatial maps
+3	Figure 3B	02_主图/Figure_3B_Cross_platform_meta_analysis.png	Main figure panel	Cross-platform spatial meta-analysis
+4	Figure 4	02_主图/Figure_4_Methods_robustness.png	Main figure	Robustness, leave-one-patient-out, matched-gene-set null, panel coverage
+5	Figure 5	02_主图/Figure_5_Treatment_convergence.png	Main figure	Treatment convergence
+6	Figure 6	02_主图/Figure_6_Placebo_controlled.png	Main figure	Placebo-controlled treatment response
+7	Figure 7	02_主图/Figure_7_Resolution_kinetics_and_residual.png	Main figure	Resolution kinetics and exploratory residual
+S1	Supplementary Figure S1	03_补充图/SuppFigure_S1_Bulk_external_validation.png	Supplementary	External bulk validation
+S2	Supplementary Figure S2	03_补充图/SuppFigure_S2_Cross_platform_residual_forest.png	Supplementary	Cross-platform residual effects
+S3	Supplementary Figure S3	03_补充图/SuppFigure_S3_Cross_platform_residual_leaveoneout.png	Supplementary	Residual leave-one-out check
+S4	Supplementary Figure S4	03_补充图/SuppFigure_S4_CosMx_neighborhood_sensitivity.png	Supplementary exploratory	Neighborhood sensitivity
+S5	Supplementary Figure S5	03_补充图/SuppFigure_S5_Week28_residual_detail.png	Supplementary exploratory	Week-28 residual detail
+S6	Supplementary Figure S6	03_补充图/SuppFigure_S6_Etanercept_residual_kinetics.png	Supplementary exploratory	Etanercept residual-fraction kinetics
+
